@@ -1,7 +1,7 @@
 require 'selenium-webdriver'
 require 'cucumber'
   
-  Selenium::WebDriver::Chrome.driver_path="/Users/prashanthsams/Documents/Test/propertyfinderae/libs/chromedriver"
+  Selenium::WebDriver::Chrome.driver_path="libs/chromedriver"
   driver = Selenium::WebDriver.for :chrome
 
   Given(/^I go to google$/) do 
