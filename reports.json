@@ -1,0 +1,71 @@
+[
+  {
+    "uri": "features/specs/Google_Search.feature",
+    "id": "navigate-google",
+    "keyword": "Feature",
+    "name": "Navigate Google",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "navigate-google;assert-google",
+        "keyword": "Scenario",
+        "name": "Assert Google",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26271
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I go to google",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/google_search.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2308130984
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I search for \"Prashanth Sams\"",
+            "line": 5,
+            "output": [
+              "finished ..."
+            ],
+            "match": {
+              "location": "features/step_definitions/google_search.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5202222106
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24202
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
